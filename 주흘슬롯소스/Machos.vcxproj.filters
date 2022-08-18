@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="d3dhook.cpp" />
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="dxgioffsets.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="sha256.cpp" />
+    <ClCompile Include="Skin\Heroes.cpp" />
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BreakPoint.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="D3dhook.h" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="DllMain.h" />
+    <ClInclude Include="dxgioffsets.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui.h" />
+    <ClInclude Include="imgui_internal.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="load.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="Memory.hpp" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Offset.h" />
+    <ClInclude Include="renderer.h" />
+    <ClInclude Include="SendInput.h" />
+    <ClInclude Include="sha256.h" />
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="skCrypter.h" />
+    <ClInclude Include="SKD.hpp" />
+    <ClInclude Include="Skin\BotUtils.h" />
+    <ClInclude Include="Skin\Heroes.h" />
+    <ClInclude Include="Spoofcall.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="stb_rect_pack.h" />
+    <ClInclude Include="stb_textedit.h" />
+    <ClInclude Include="stb_truetype.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="VMProtectSDK.h" />
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="VMProtectSDK64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Spoofcall.masm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0e4bde3e-ce30-4bae-b378-343f415a1e46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
